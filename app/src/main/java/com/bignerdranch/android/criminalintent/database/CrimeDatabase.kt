@@ -10,4 +10,4 @@ import com.bignerdranch.android.criminalintent.Crime
 @TypeConverters(CrimeTypeConverters::class)
 abstract class CrimeDatabase : RoomDatabase() {
     abstract fun crimeDao(): CrimeDao
-}s
+}
